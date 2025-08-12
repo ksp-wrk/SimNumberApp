@@ -16,7 +16,7 @@ jobs:
 
     - name: Unzip uploaded ZIP file
       run: |
-        unzip -o your-uploaded.zip -d ./extracted_files
+        unzip -o SimNumberApp.zip -d ./extracted_files
 
     - name: Copy files to repo root (or any folder)
       run: |
